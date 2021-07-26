@@ -1,0 +1,42 @@
+.cardContainer {
+  padding: 3rem;
+  width: auto;
+  //   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h1 {
+    color: white;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  p {
+    color: white;
+    opacity: 0.6;
+    font-family: sans-serif;
+    margin-bottom: 5rem;
+    font-size: 0.8rem;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+  button {
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    border: 0.2rem solid transparent;
+    font-weight: 500;
+    font-family: "Lexend", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    width: 8rem;
+
+    &:hover {
+      background-color: transparent;
+      border: 0.2rem solid white;
+      color: white !important;
+      opacity: 0.8;
+    }
+  }
+}
